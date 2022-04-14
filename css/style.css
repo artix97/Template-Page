@@ -3,6 +3,7 @@
     width: 95%;
     margin-bottom: 1%;
     
+    
 }
 
 .row-pos{
@@ -16,4 +17,24 @@
 .col-pos{
     display: flex;
     align-items: center;
+    
 }
+.body{
+    position: relative;
+}
+
+.img-pos{
+    padding-right: 0%;
+    padding-left: 0%;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .navbar-brand{
+    padding-bottom: 10px;
+  }
