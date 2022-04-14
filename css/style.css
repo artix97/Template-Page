@@ -1,0 +1,19 @@
+.card-pos{
+    text-align: center;
+    width: 95%;
+    margin-bottom: 1%;
+    
+}
+
+.row-pos{
+    display: flex;
+    justify-content: center;
+    border: none;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 1%;
+}
+.col-pos{
+    display: flex;
+    align-items: center;
+}
