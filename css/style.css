@@ -2,8 +2,6 @@
     text-align: center;
     width: 95%;
     margin-bottom: 1%;
-    
-    
 }
 
 .row-pos{
@@ -12,7 +10,7 @@
     border: none;
     margin-left: 2.5%;
     margin-right: 2.5%;
-    margin-top: 1%;
+    margin-top: 5%;
 }
 .col-pos{
     display: flex;
@@ -37,4 +35,20 @@
 
   .navbar-brand{
     padding-bottom: 10px;
+  }
+
+  .no-border{
+      border: none
+  }
+
+  .card-img-top{
+      max-height: 500px;
+      
+  }
+
+  .border-radius-main{
+      border-top-left-radius: 7.25rem;
+      border-top-right-radius: 7.25rem;
+      border-bottom-left-radius: 7.25rem;
+      border-bottom-right-radius: 7.25rem;
   }
