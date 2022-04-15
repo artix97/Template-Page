@@ -4,6 +4,11 @@
     margin-bottom: 1%;
 }
 
+.text-white{
+    color: white;
+    opacity: 1;
+    white-space: nowrap;
+}
 .row-pos{
     display: flex;
     justify-content: center;
@@ -16,6 +21,10 @@
     display: flex;
     align-items: center;
     
+}
+
+.jus-cen{
+    justify-content: center !important;
 }
 .body{
     position: relative;
@@ -45,6 +54,9 @@
       max-height: 500px;
       
   }
+  .pos-rel{
+      position: relative !important;
+  }
 
   .border-radius-main{
       border-top-left-radius: 7.25rem;
@@ -52,3 +64,42 @@
       border-bottom-left-radius: 7.25rem;
       border-bottom-right-radius: 7.25rem;
   }
+  .head-pd{
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+ 
+
+  header.masthead {
+    position: relative;
+    background-color: #343a40;
+    background: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    min-height: 750px;
+  }
+  header.masthead:before {
+    content: "";
+    position: absolute;
+    background-color: #1c375e;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+  }
+  header.masthead h1, header.masthead .h1 {
+    font-size: 2rem;
+  }
+  @media (min-width: 768px) {
+    header.masthead {
+      padding-top: 12rem;
+      padding-bottom: 12rem;
+      min-height: 300px;
+    }
+    header.masthead h1, header.masthead .h1 {
+      font-size: 3rem;
+    }
+  }
+  
