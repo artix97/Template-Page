@@ -1,0 +1,11 @@
+.border-radius-main {
+  border-top-left-radius: calc(3.25rem-5px);
+  border-top-right-radius: calc(3.25rem-5px);
+  border-bottom-left-radius: calc(3.25rem-5px);
+  border-bottom-right-radius: calc(3.25rem-5px);
+}
+
+header.masthead {
+  min-height: calc(10rem-1px);
+}
+/*# sourceMappingURL=radius.css.map */
