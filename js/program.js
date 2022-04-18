@@ -1,6 +1,6 @@
 function MailSuccess() {
     let name = document.getElementById("nameFormControl").value;
-    alert("Hi " + name + "!");
+    alert("Hi " + name + "! \n\Your message has been sent!");
     document.getElementById("nameFormControl").value = "";
     document.getElementById("mailFormControl").value = "";
     document.getElementById("textFormControl").value = "";
