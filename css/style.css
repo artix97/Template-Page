@@ -51,7 +51,7 @@
   }
 
   .card-img-top{
-      max-height: 500px;
+      min-height: 300px;
       
   }
   .pos-rel{
@@ -87,18 +87,16 @@
     left: 0;
     opacity: 0.5;
   }
-  .border-radius-main {
-    border-top-left-radius: calc(3.25rem - 5px);
-    border-top-right-radius: calc(3.25rem - 5px);
-    border-bottom-left-radius: calc(3.25rem - 5px);
-    border-bottom-right-radius: calc(3.25rem - 5px);
-  }
+
   /*# sourceMappingURL=radius.css.map */
   header.masthead h1, header.masthead .h1 {
     font-size: 2rem;
   }
   .head-pd{
     position: relative;
+  }
+  p.card-body{
+    margin-top: 1%;
   }
   @media (min-width: 768px) {
     header.masthead {
@@ -130,6 +128,7 @@
     }
     img.card-img-top{
       max-height: fit-content;
+      
     }
     body{
       position: inherit;

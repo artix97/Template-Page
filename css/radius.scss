@@ -4,6 +4,13 @@
     border-bottom-left-radius: calc(3.25rem-5px);
     border-bottom-right-radius: calc(3.25rem-5px);
 }
+img.card-img-top{
+    border-top-left-radius: calc(0.25rem - 1px);
+        border-top-right-radius: calc(0.25rem - 1px);
+        border-bottom-left-radius: calc(0.25rem - 1px);
+        border-bottom-right-radius: calc(0.25rem - 1px);
+  }
+  
 header.masthead{
     min-height: calc(10rem-1px);
 }
